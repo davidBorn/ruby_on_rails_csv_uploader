@@ -1,5 +1,9 @@
 # README
 
+# CSV Uploader
+- Uploads and appends data from csv files. 
+- Looking into modifying uploader so it can modify changes in the database, per upload, for every CSV.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
