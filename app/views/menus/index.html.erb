@@ -20,14 +20,35 @@
         </tr>
     </thead>
     <tbody>
-        <% @menus.each do |menu| %>
-            <tr>
-                <td><%= menu.item %></td>
-                <td><%= menu.description %></td>
-                <td><%= menu.price %></td>
-                <td><%= menu.catagory%></td>
-            </tr>
-        <%end%>
+
+           
+   
+            
+            
     </tbody>
 </table>
 
+<div class = "grid">          
+    <% @MenuItems.each do |catagory, items| %>
+        <h1 class = "catagory-name"><%= catagory %></h1>
+            <div class = "menu-item-container">
+                <% for item in items %>
+                    <div class = "item/description">
+                        <h2><%= item.item %></h2>
+                    
+                    
+                        <h4 class = "item-description"><%= item.description %></h4>
+                    </div>
+                    <div class = "price">
+                        <h3 "><%= item.price %></h3>
+                    </div>
+
+                <%end%>
+            </div>
+
+        
+
+    <%end%>
+
+</div>
+    

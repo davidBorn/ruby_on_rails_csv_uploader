@@ -1,3 +1,36 @@
 // Place all the styles related to the menus controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.html{ 
+    padding: 0;
+    margin: 0;
+}
+.grid { 
+    display: grid;
+    margin: 0 20%;
+   
+    
+}
+
+.menu-item-container {
+    background-color: rgba(247, 248, 250, 255);
+    padding: 0 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.price { 
+    display: grid;
+    justify-self: end;
+    margin: 0 50% 0 0;
+    color: rgba(184, 187, 198, 255); 
+}
+
+.item-description { 
+    color: rgba(184, 187, 198, 255); 
+}
+
+
+
